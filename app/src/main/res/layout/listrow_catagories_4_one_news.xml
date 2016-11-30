@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f8f8f8"
+        android:focusable="false"
+
+        android:padding="10dp">
+
+
+        <RelativeLayout  android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/frameLayout2"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="11dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:text="TextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/createdat"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:layout_weight="2"
+                            android:gravity="right" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/ic_lineforcatagories"
+                            android:id="@+id/imageView28"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:text="TextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/catagory_name"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:textColor="@color/MyDameerRedColor"
+                            android:layout_weight="0"
+                            android:gravity="right" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/title"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="5dp"
+                        android:gravity="right"
+                        android:layout_marginRight="12dp" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_weight="3">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/cover"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:scaleType="fitXY" />
+                </FrameLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <!-- Surface View End -->
+
+
+
+</LinearLayout>

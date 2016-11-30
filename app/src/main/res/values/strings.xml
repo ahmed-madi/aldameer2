@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Aldameer</string>
+
+      <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat volutpat. Sed congue augue vitae neque. Nulla consectetuer porttitor pede. Fusce purus morbi tortor magna condimentum vel, placerat id blandit sit amet tortor.
+
+Mauris sed libero. Suspendisse facilisis nulla in lacinia laoreet, lorem velit accumsan velit vel mattis libero nisl et sem. Proin interdum maecenas massa turpis sagittis in, interdum non lobortis vitae massa. Quisque purus lectus, posuere eget imperdiet nec sodales id arcu. Vestibulum elit pede dictum eu, viverra non tincidunt eu ligula.
+
+Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa. Proin in dolor mauris consequat aliquam. Donec ipsum, vestibulum ullamcorper venenatis augue. Aliquam tempus nisi in auctor vulputate, erat felis pellentesque augue nec, pellentesque lectus justo nec erat. Aliquam et nisl. Quisque sit amet dolor in justo pretium condimentum.
+
+Vivamus placerat lacus vel vehicula scelerisque, dui enim adipiscing lacus sit amet sagittis, libero enim vitae mi. In neque magna posuere, euismod ac tincidunt tempor est. Ut suscipit nisi eu purus. Proin ut pede mauris eget ipsum. Integer vel quam nunc commodo consequat. Integer ac eros eu tellus dignissim viverra. Maecenas erat aliquam erat volutpat. Ut venenatis ipsum quis turpis. Integer cursus scelerisque lorem. Sed nec mauris id quam blandit consequat. Cras nibh mi hendrerit vitae, dapibus et aliquam et magna. Nulla vitae elit. Mauris consectetuer odio vitae augue.
+
+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat volutpat. Sed congue augue vitae neque. Nulla consectetuer porttitor pede. Fusce purus morbi tortor magna condimentum vel, placerat id blandit sit amet tortor.
+
+Mauris sed libero. Suspendisse facilisis nulla in lacinia laoreet, lorem velit accumsan velit vel mattis libero nisl et sem. Proin interdum maecenas massa turpis sagittis in, interdum non lobortis vitae massa. Quisque purus lectus, posuere eget imperdiet nec sodales id arcu. Vestibulum elit pede dictum eu, viverra non tincidunt eu ligula.
+
+Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa. Proin in dolor mauris consequat aliquam. Donec ipsum, vestibulum ullamcorper venenatis augue. Aliquam tempus nisi in auctor vulputate, erat felis pellentesque augue nec, pellentesque lectus justo nec erat. Aliquam et nisl. Quisque sit amet dolor in justo pretium condimentum.
+
+Vivamus placerat lacus vel vehicula scelerisque, dui enim adipiscing lacus sit amet sagittis, libero enim vitae mi. In neque magna posuere, euismod ac tincidunt tempor est. Ut suscipit nisi eu purus. Proin ut pede mauris eget ipsum. Integer vel quam nunc commodo consequat. Integer ac eros eu tellus dignissim viverra. Maecenas erat aliquam erat volutpat. Ut venenatis ipsum quis turpis. Integer cursus scelerisque lorem. Sed nec mauris id quam blandit consequat. Cras nibh mi hendrerit vitae, dapibus et aliquam et magna. Nulla vitae elit. Mauris consectetuer odio vitae augue.</string>
+    <string name="title_activity_custom_color">CustomColorActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pick_file">Setting</string>
+
+    <string name="settingnotifi">Setting Notification</string>
+    <string name="setting_topbar"> Setting</string>
+    <string name="conectus"> Contact us</string>
+    <string name="facebook">facebook Account</string>
+    <string name="twitter">twitter Account</string>
+    <string name="email">Email</string>
+    <string name="sms">SMS Service</string>
+    <string name="website">website:www.aldameer.org</string>
+    <string name="mail">Email Address :info@aldameer.org</string>
+    <string name="tel">Telephone: 2863655 - 2826660</string>
+    <string name="mobile">Mobile : 0599418267</string>
+    <string name="fax">Fax : 082863654</string>
+    <string name="mbox">PO.Box: 5045</string>
+    <string name="address">Gaza - Charles de Gaulle Street in front of the Election Committee - Abu Oof Building - Second Floor</string>
+    <string name="organization_name">Conscience Foundation for Human Rights</string>
+    <string name="version">Version Number: 1.1</string>
+
+
+
+    <string name="call_us">Call us</string>
+    <string name="about">About</string>
+    <string name="report">Report</string>
+    <string name="categories">Catagories</string>
+    <string name="news">News</string>
+
+
+    <string name="txt1">Convention on the Elimination of All Forms of Discrimination Against Women</string>
+    <string name="txt2">Convention on the Rights of the Child</string>
+    <string name="txt3">Universal Declaration of Human Rights (1)</string>
+    <string name="txt4">International Covenant on Economic, Social and Cultural Rights</string>
+    <string name="txt5">On Civil and Political Rights, the International Covenant</string>
+    <string name="txt6">The Palestinian basic law</string>
+    <string name="txt7">Guidelines regarding the form and content of reports</string>
+    <string name="txt8">A guide to record a charity</string>
+    <string name="txt9">The Palestinian Penal Code of 1936</string>
+    <string name="txt10">Palestinian Labor Law</string>
+
+
+    <string name="catagories">Related Catagories</string>
+    <string name="lastnews">Last News</string>
+    <string name="catagories2">Catagories</string>
+    <string name="vote">Opinions</string>
+
+
+    <string name="language">Language</string>
+    <string name="lang5">Press to choose arabic</string>
+
+
+    <string name="addfav">Add Favorite</string>
+    <string name="delfav">Delete Favorite</string>
+
+    <string name="splash">All rights reserved Aldameer © 2016</string>
+
+
+
+
+
+</resources>

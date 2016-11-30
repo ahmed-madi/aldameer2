@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_arrowpdf23"
+            android:id="@+id/imageView"
+            android:adjustViewBounds="false"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="12dp"
+            android:rotation="180" />
+
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/bb_darkBackgroundColor"
+            android:textSize="12sp"
+            android:visibility="visible" />
+
+        <ImageView
+
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             app:srcCompat="@drawable/ic_pdficon"
+            android:id="@+id/imageView2"
+            android:padding="10dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</LinearLayout>

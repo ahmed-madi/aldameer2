@@ -1,0 +1,516 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.is.ps.addameer.CallFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:text="@string/setting_topbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView28"
+            android:paddingTop="20dp"
+            android:paddingBottom="15dp"
+            android:paddingStart="10dp" />
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_2_layers"
+                android:id="@+id/imageView23"
+                android:layout_alignParentStart="true"
+                android:paddingStart="10dp"
+
+
+                />
+
+
+            <TextView
+                android:layout_toEndOf="@+id/imageView23"
+                android:paddingStart="10dp"
+                android:gravity="left"
+
+                android:layout_alignParentTop="true"
+                android:text="@string/settingnotifi"
+                android:layout_width="wrap_content"
+                android:id="@+id/setttting"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginTop="5dp" />
+
+            <Switch
+                android:layout_alignParentEnd ="true"
+                android:paddingEnd="10dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/switch1"
+                android:paddingTop="5dp"
+                android:layout_marginTop="5dp" />
+
+        </RelativeLayout>
+        <TextView
+            android:text="@string/language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lang5"
+            android:layout_marginTop="25dp"
+            android:paddingStart="10dp" />
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/langu">
+
+
+
+            <TextView
+
+                android:layout_toEndOf="@+id/imgforlang"
+                android:paddingStart="10dp"
+
+                android:id="@+id/language2"
+                android:text="@string/lang5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_lang33"
+                android:layout_alignParentStart="true"
+                android:paddingStart="10dp"
+
+                android:id="@+id/imgforlang"
+                android:cropToPadding="false" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:text="@string/conectus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView40"
+            android:layout_marginTop="25dp"
+            android:paddingStart="10dp" />
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+
+                android:layout_toEndOf="@+id/call2"
+                android:paddingStart="10dp"
+
+                android:id="@+id/facebook"
+                android:text="@string/facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginTop="5dp"
+                 />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_facebook"
+                android:layout_alignParentStart="true"
+                android:paddingStart="10dp"
+
+                android:id="@+id/call2" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+
+                android:layout_toEndOf="@+id/twitter"
+                android:paddingStart="10dp"
+
+                android:text="@string/twitter"
+                android:layout_width="wrap_content"
+                android:id="@+id/twittertv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_twitter"
+                android:layout_alignParentStart="true"
+                android:paddingStart="10dp"
+
+                android:id="@+id/twitter" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+
+                android:layout_toEndOf="@+id/email"
+                android:paddingStart="10dp"
+
+
+                android:layout_width="wrap_content"
+                android:id="@+id/emailtv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/email" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_email"
+                android:layout_alignParentStart="true"
+                android:paddingStart="10dp"
+
+                android:id="@+id/email" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+
+                android:layout_toEndOf="@+id/sms"
+                android:paddingStart="10dp"
+
+
+                android:layout_width="wrap_content"
+                android:id="@+id/smstv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/sms" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_sms"
+                android:layout_alignParentStart="true"
+                android:paddingStart="10dp"
+
+                android:id="@+id/sms" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+                android:layout_toEndOf="@+id/website"
+                android:paddingStart="10dp"
+
+
+                android:text="@string/website"
+                android:layout_width="wrap_content"
+                android:id="@+id/websitetv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginTop="5dp"
+        />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_website"
+                android:layout_alignParentStart="true"
+                android:paddingStart="10dp"
+
+                android:id="@+id/website" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+
+            <TextView
+                android:layout_toEndOf="@+id/mail"
+                android:paddingStart="10dp"
+
+
+                android:text="@string/mail"
+                android:layout_width="wrap_content"
+                android:id="@+id/mailtv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginTop="5dp"
+                 />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_email"
+                android:layout_alignParentStart="true"
+                android:paddingStart="10dp"
+
+                android:id="@+id/mail" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+
+                android:layout_toEndOf="@+id/tv"
+                android:paddingStart="10dp"
+
+
+                android:text="@string/tel"
+                android:layout_width="wrap_content"
+                android:id="@+id/telphonetv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginTop="5dp"
+                 />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_call_us_number"
+                android:layout_alignParentStart="true"
+                android:paddingStart="10dp"
+
+                android:id="@+id/tv" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+
+
+                android:layout_toEndOf="@+id/mobile"
+                android:paddingStart="10dp"
+
+
+                android:text="@string/mobile"
+                android:layout_width="wrap_content"
+                android:id="@+id/mobiletv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginTop="5dp"
+             />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_telephone"
+                android:layout_alignParentStart="true"
+                android:paddingStart="10dp"
+
+                android:id="@+id/mobile" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+                android:layout_toEndOf="@+id/fax"
+                android:paddingStart="10dp"
+
+
+
+                android:text="@string/fax"
+                android:layout_width="wrap_content"
+                android:id="@+id/faxtv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_fax"
+                android:layout_alignParentStart="true"
+                android:paddingStart="10dp"
+
+                android:id="@+id/fax" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+
+                android:layout_toEndOf="@+id/mailbox"
+                android:paddingStart="10dp"
+
+
+                android:text="@string/mbox"
+                android:layout_width="wrap_content"
+                android:id="@+id/mailboxtv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginTop="5dp"
+            />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_maibox"
+                android:layout_alignParentStart="true"
+                android:paddingStart="10dp"
+
+                android:id="@+id/mailbox" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+                android:layout_toEndOf="@+id/address"
+                android:paddingStart="10dp"
+
+
+                android:text="@string/address"
+                android:layout_width="wrap_content"
+                android:id="@+id/addresstv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginTop="5dp"
+                android:paddingEnd="10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_address"
+                android:layout_alignParentStart="true"
+                android:paddingStart="10dp"
+
+                android:id="@+id/address" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="25dp">
+
+            <ImageView
+                app:srcCompat="@mipmap/gray_logo"
+                android:id="@+id/imageView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dameer"
+            android:text="@string/organization_name"
+            android:textColor="#616161"
+            android:gravity="center"
+            android:paddingBottom="5dp" />
+
+
+        <TextView
+            android:gravity="center"
+
+            android:text="@string/version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/version"
+            android:textColor="#616161"
+            android:paddingBottom="10dp" />
+
+
+    </LinearLayout>
+</ScrollView>

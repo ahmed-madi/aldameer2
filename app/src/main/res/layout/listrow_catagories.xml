@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+
+    >
+
+
+    <com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/swipe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="false"
+        android:touchscreenBlocksFocus="false">
+
+
+
+
+        <!-- Bottom View Start-->
+
+        <LinearLayout
+            android:id="@+id/bottom_wrapper"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:focusable="false"
+
+
+            >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/topbarcolor"
+                android:focusable="false"
+                >
+
+                <ImageView
+                    android:id="@+id/delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/fav2cell2out2line"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:text="اضافة للمفضلة"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fav_txt"
+                    android:textColor="@android:color/white"
+                    android:layout_below="@+id/delete"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_vertical|center_horizontal|center" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:focusable="false"
+
+            android:padding="10dp">
+
+
+            <RelativeLayout  android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearswap">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_weight="3">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:id="@+id/cover"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:scaleType="fitXY" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toStartOf="@+id/frameLayout2"
+                        android:layout_weight="1"
+                        android:layout_marginStart="5dp">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="11dp"
+                            android:layout_weight="1"
+                            android:layout_marginStart="5dp">
+
+                            <TextView
+                                android:text="TextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/catagory_name"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:textColor="@color/MyDameerRedColor"
+                                android:layout_weight="0"
+                                android:layout_marginEnd="10dp" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/ic_lineforcatagories"
+                                android:id="@+id/imageView28"
+                                android:layout_weight="0"
+                                android:layout_marginEnd="10dp" />
+
+                            <TextView
+                                android:text="TextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/createdat"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:layout_weight="0"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginStart="5dp">
+
+                            <TextView
+                                android:text="TextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/title"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:textColor="@android:color/black"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        <!-- Bottom View End-->
+
+        <!-- Surface View Start -->
+
+
+        <!-- Surface View End -->
+
+
+    </com.daimajia.swipe.SwipeLayout>
+    <!-- Surface View End -->
+
+
+
+</LinearLayout>

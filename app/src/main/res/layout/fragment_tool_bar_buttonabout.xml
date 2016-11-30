@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/AboutScrol"
+    >
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/undp"
+            android:id="@+id/imageView3"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:text="البرنامج المشترك لبرنامج الأمم المتحدة الإنمائي وهيئة الأمم المتحدة للمرأة تعزيز سيادة القانون العدالة والأمن للشعب الفلسطيني "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:gravity="center"
+
+            android:textColor="#919191"
+
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:text='يأتي اعداد ونشر هذا التطبيق في اطار تنفيذ مؤسسة الضمير لحقوق الانسان لمشروع ممول من البرنامج المشترك سواسية "برنامج الامم المتحدة الانمائي (UNDP) بعنوان " المساهمة في تعزيز سيادة القانون وحقوق الانسان والقانون الدولي الانساني في قطاع غزة " مؤسسة الضمير لحقوق الإنسان تنفذ بتمويل مشروع حيث يسعى المشروع لتحقيق جملة من الأهداف المحددة من بينها , توثيق ونشر المعلومات حول انتهاكات حقوق الإنسان والقانون الدولي الإنساني في قطاع غزة.'
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:gravity="right"
+            android:textSize="12sp"
+            android:textColor="#1e1e1e"
+            android:paddingRight="10dp"
+            android:paddingTop="30dp"/>
+
+        <TextView
+            android:text="نبذة حول أهداف المشروع : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textSize="14sp"
+            android:textColor="#1e1e1e"
+            android:paddingRight="10dp"
+            android:gravity="right"
+            android:paddingTop="15dp" />
+
+        <TextView
+            android:text="الهدف الاستراتيجي :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+
+            android:textSize="12sp"
+            android:textColor="#1e1e1e"
+            android:paddingRight="10dp"
+
+            android:gravity="right"
+            android:paddingTop="5dp"
+            android:paddingBottom="3dp" />
+
+        <TextView
+            android:text="المساهمة في تعزيز تطبيق سيادة القانون وحقوق الإنسان بقطاع غزة، والدفاع عن المدنيين المحميين بموجب اتفاقيات جنيف الرابعة لعام 1949، مرتكزة على بناء القدرات وتحسين الحشد والمناصرة والتشبيك، وتوثيق ونشر المعلومات حول الانتهاكات حقوق الإنسان والقانون الدولي الإنساني في قطاع غزة "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:paddingRight="10dp"
+
+            android:textSize="12dp"
+            android:textColor="#1e1e1e"
+
+            android:gravity="right"/>
+
+        <TextView
+            android:text="الأهداف المحددة : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+
+            android:textSize="14dp"
+            android:paddingRight="10dp"
+
+            android:textColor="#1e1e1e"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:text=" تقوية وبناء قدرات مؤسسة الضمير وأصحاب المصلحة بخصوص المعايير الدولية لحقوق الإنسان."
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView9"
+
+                android:textSize="12dp"
+                android:textColor="#1e1e1e"
+                android:paddingRight="5dp"
+                />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reddot"
+                android:id="@+id/imageView4"
+                android:layout_gravity="right"
+                android:paddingRight="10dp"
+                android:adjustViewBounds="false"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingBottom="5dp">
+
+
+            <TextView
+                android:text="المساهمة في تحسين المناصرة والتشبيك بخصوص تعزيز المعايير الدولية لحقوق الإنسان، والدفاع عن ضحايا الانتهاكات وضمان حقوق الفئات الهشة والضعيفة."
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView10"
+                android:textSize="12dp"
+                android:textColor="#1e1e1e"
+                android:paddingRight="10dp" />
+
+            <ImageView
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reddot"
+                android:id="@+id/imageView5"
+                android:paddingRight="10dp"
+                android:adjustViewBounds="false"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_width="13dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingBottom="5dp">
+
+
+            <TextView
+                android:text="توثيق ونشر المعلومات حول الانتهاكات حقوق الإنسان والقانون الدولي الإنساني في قطاع غزة. "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView11"
+                android:textSize="12dp"
+                android:textColor="#1e1e1e"
+                android:paddingRight="10dp"
+
+                />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reddot"
+                android:id="@+id/imageView6"
+                android:layout_gravity="right"
+                android:adjustViewBounds="false"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:text="إدماج معايير حقوق الإنسان في تشريعات وسياسات قطاع الحكم بما يضمن تفعيل المنظومة القانونية والمؤسساتية لتعزيز تطبيق حقوق الإنسان."
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView12"
+                android:textSize="12dp"
+                android:textColor="#1e1e1e"
+                android:paddingRight="10dp" />
+
+
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reddot"
+                android:id="@+id/imageView7"
+                android:layout_gravity="right"
+                android:paddingRight="10dp"
+                android:adjustViewBounds="false"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

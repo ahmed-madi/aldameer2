@@ -1,0 +1,430 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.is.ps.addameer.CallFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:text="إعدادات"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView28"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="15dp" />
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/switch1"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:text="إعدادات الاشعارات"
+                android:layout_width="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/imageView23"
+                android:layout_toLeftOf="@+id/imageView"
+                android:id="@+id/textView39"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_2_layers"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/imageView23" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="للتواصل"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView40"
+            android:layout_marginTop="25dp"
+            android:paddingRight="10dp" />
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:text="حسابنا علي الفيسبوك"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/call2"
+                android:id="@+id/textView41"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/call2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_facebook"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/call2" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+                android:text="حسابنا علي تويتر"
+                android:layout_width="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/twitter"
+                android:id="@+id/twittertv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/twitter" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_twitter"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/twitter" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+                android:text="ارسال خبر عبر الايميل"
+                android:layout_width="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/email"
+                android:id="@+id/emailtv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/email" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_email"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/email" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+                android:text="أشتراك بخدمة sms"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/sms"
+                android:id="@+id/smstv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"
+            />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_sms"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/sms" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+                android:text="موقع الالكتروني:www.aldameer.org"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/website"
+                android:id="@+id/websitetv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/website" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_website"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/website" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+                android:text="ايميل:info@aldameer.org"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/mail"
+                android:id="@+id/mailtv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/mail" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_email"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/mail" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+                android:text="هاتف: 2863655 - 2826660"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/tv"
+                android:id="@+id/telphonetv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/tv" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_call_us_number"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/tv" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+                android:text="موبايل : 0599418267"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/mobile"
+                android:id="@+id/mobiletv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/mobile" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_telephone"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/mobile" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+                android:text="فاكس : 082863654"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/fax"
+                android:id="@+id/faxtv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/fax" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_fax"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/fax" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+                android:text="صندوق البريد : 5045"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/mailbox"
+                android:id="@+id/mailboxtv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/mailbox" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_maibox"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/mailbox" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+
+
+            <TextView
+                android:text="غزة-شارع شارل ديغول مقابل لجنة الإنتخابات - عمارة أبو العوف - الطابق الثاني"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/address"
+                android:id="@+id/addresstv"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_address"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/address" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <ImageView
+                app:srcCompat="@drawable/ic_call_us_logo_damer"
+                android:id="@+id/imageView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView42"
+            android:text="مؤسسة الضمير لحقوق الإنسان"
+            android:textColor="#616161"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:gravity="center"
+
+            android:text="نسخة رقم : 1.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView43"
+            android:textColor="#616161"
+            android:paddingBottom="10dp" />
+
+
+    </LinearLayout>
+</ScrollView>

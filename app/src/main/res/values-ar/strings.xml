@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">الضمير</string>
+          <string name="lorem_ipsum">لل</string>
+    <string name="title_activity_custom_color">مؤسسة الضمير</string>
+    <string name="hello_blank_fragment">صفحة فارغة</string>
+    <string name="pick_file">اعدادات</string>
+
+
+
+    <string name="settingnotifi">إعدادات الاشعارات</string>
+    <string name="setting_topbar"> إعدادات</string>
+    <string name="conectus"> للتواصل</string>
+    <string name="facebook">حسابنا علي الفيسبوك</string>
+    <string name="twitter">حسابنا علي تويتر</string>
+
+    <string name="email">ارسال خبر عبر الايميل</string>
+    <string name="sms">أشتراك بخدمة sms</string>
+    <string name="website">موقع الالكتروني:www.aldameer.org</string>
+    <string name="mail">ايميل:info@aldameer.org</string>
+
+
+    <string name="tel">هاتف: 2863655 - 2826660</string>
+    <string name="mobile">موبايل : 0599418267</string>
+
+    <string name="fax">فاكس : 082863654</string>
+    <string name="mbox">صندوق البريد : 5045</string>
+    <string name="address">غزة-شارع شارل ديغول مقابل لجنة الإنتخابات - عمارة أبو العوف - الطابق الثاني</string>
+    <string name="organization_name">مؤسسة الضمير لحقوق الإنسان</string>
+    <string name="version">نسخة رقم : 1.1</string>
+
+
+
+    <string name="call_us">اتصل بنا</string>
+    <string name="about">من نحن</string>
+    <string name="report">تقارير</string>
+    <string name="categories">تصنيفات</string>
+    <string name="news">آخر أخبار</string>
+
+
+    <string name="txt1">اتفاقية القضاء على جميع أشكال التمييز ضد المرأة</string>
+    <string name="txt2">اتفاقية حقوق الطفل</string>
+    <string name="txt3">الاعلان العالمي لحقوق الانسان (1)</string>
+    <string name="txt4">العهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية</string>
+    <string name="txt5">العهد الدولي الخاص بالحقوق السياسية والمدنية</string>
+    <string name="txt6">القانون الاساسي الفلسطيني</string>
+    <string name="txt7">المبادئ التوجيهية المتعلقة بشكل ومحتوى التقارير</string>
+    <string name="txt8">دليل إرشادي لتسجيل جمعية خيرية</string>
+    <string name="txt9">قانون العقوبات الفلسطيني لسنة 1936</string>
+    <string name="txt10">قانون العمل الفلسطيني</string>
+
+    <string name="catagories">مواضيع ذات صلة</string>
+
+    <string name="lastnews">اخر الاخبار</string>
+    <string name="catagories2">تصنيفات</string>
+    <string name="vote">آراء واستفتاءات</string>
+    language
+    <string name="language">اللغة</string>
+
+    <string name="lang5">اضغط هنا لاختيار الانجليزية</string>
+
+    <string name="addfav">إضافة للمفضلة</string>
+    <string name="delfav">إزالة من المفضلة</string>
+
+    <string name="splash">جميع الحقوق محفوظة لمؤسسة الضمير © 2016</string>
+
+
+
+
+
+
+
+
+
+</resources>
